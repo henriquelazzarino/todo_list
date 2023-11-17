@@ -25,13 +25,13 @@ const Header = () => {
         <IoMdMenu className="w-6 h-6"/>
         <MdOutlineSettings className="w-6 h-6"/>
       </div>
-      <div className="mt-3 flex justify-between items-center">
+      <div className="mt-4 flex justify-between items-center">
         <div>
           <p>{data}</p>
           <p className="text-xl font-bold">Today</p>
         </div>
         <div>
-          <button className="bg-green py-2 px-5 rounded-full">
+          <button className="bg-green py-1.5 px-3.5 rounded-full text-white hover:bg-dark-green duration-150">
             Add task
           </button>
         </div>
