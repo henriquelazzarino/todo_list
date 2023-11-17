@@ -31,7 +31,7 @@ const Header = () => {
           <p className="text-xl font-bold">Today</p>
         </div>
         <div>
-          <button className="bg-green py-1.5 px-3.5 rounded-full text-white hover:bg-dark-green duration-150">
+          <button className="bg-green py-1.5 px-3.5 rounded-full text-white hover:bg-dark-green duration-300 active:bg-dark-green">
             Add task
           </button>
         </div>

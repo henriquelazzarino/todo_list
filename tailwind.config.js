@@ -9,7 +9,8 @@ export default {
       "dark-gray": "#2C2C2C",
       "gray":"#B5B5B5",
       "light-gray": "#EBEBEB",
-      "white": "#F5F5F5"
+      "white": "#F5F5F5",
+      "slate-800": "#1E293B"
     },
     fontFamily: {
       'lato': ['Lato', 'sans-serif'],
