@@ -15,12 +15,27 @@ body{
 @layer utilities {
   @variants responsive {
     .no-scrollbar::-webkit-scrollbar {
-        display: none;
+      display: none;
     }
 
     .no-scrollbar {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .scrollbar::-webkit-scrollbar {
+      width: 8px;
+      height: 10px;
+      
+    }
+    
+    .scrollbar::-webkit-scrollbar-thumb {
+      background-color: #B5B5B5;
+      border-radius: 8px;
+    }
+    
+    .scrollbar::-webkit-scrollbar-track {
+      background-color: transparent;
     }
   }
 }

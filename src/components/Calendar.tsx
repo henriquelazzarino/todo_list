@@ -70,7 +70,7 @@ const Calendar = () => {
   return (
     <div
       ref={containerRef}
-      className={`flex overflow-x-auto gap-5 mt-5 mb-3 no-scrollbar cursor-move`}
+      className={`flex overflow-x-auto gap-5 my-5 cursor-move no-scrollbar`}
     >
       {days.map((day) => (
         <div key={day.number} onClick={() => handleDayClick(day.number)}>
